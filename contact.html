@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="contact-bg" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Contact Me</title>
+</head>
+<body>
+  <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li class="nav_item"><a href = "index.html">About Me</a></li>
+                <li class="nav_item"><a href="education.html">Education</a></li>
+                <li class="nav_item"><a href="work.html">Work</a></li>
+                <li class="nav_item"><a href="community.html">Community</a></li>
+                <li class="nav_item"><a id = 'contact' href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="page_container">
+        <h1 id="main">Contact Me</h1>
+        <div class="container">
+          <div class="flip-card">
+            <a class="card" href="#">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/headshot.png" alt="Nia Headshot Photo" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Nia Gray</h1>
+                  <p>Information Science Student at the University of Michigan - Ann Arbor</p>
+                  <p>Majoring in Information Analysis with a minor in Entrepreneurship</p>
+                </div>
+              </div>
+            </a>
+          </div>
+  
+          <div class="form_container">
+            <form action="https://formspree.io/f/mdoyakeo" method="POST">
+              <fieldset>
+            
+              <div class="contact_container">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Message subject..">
+                    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                <input type="submit" value="Submit">
+              </div>
+              </fieldset>          
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+	<footer>
+        <p>University of Michigan School of Information &copy; Nia Gray - Web Design 2020-2021</p>
+	</footer>
+</body>
+</html>
